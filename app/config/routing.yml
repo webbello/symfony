@@ -3,3 +3,6 @@ app:
     # resource: "@AppBundle/Resources/config/routing.yml"
     type:     annotation
     
+user_registration:
+    path:     /register
+    defaults: { _controller: AppBundle:Registration:register }
